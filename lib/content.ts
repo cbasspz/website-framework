@@ -45,4 +45,28 @@ export const siteContent = {
       { label: "Contact", href: "#contact" },
     ],
   },
-};
+  testimonials: {
+    heading: "What our clients say",
+    subheading: "Real feedback from businesses we've helped grow.",
+    items: [
+      {
+        quote:
+          "The new site completely changed how customers see us. We look like a completely different level of business now.",
+        name: "Sarah Mitchell",
+        role: "Owner, Mitchell & Co.",
+      },
+      {
+        quote:
+          "Fast, professional, and the end result exceeded what we expected going in.",
+        name: "James Carter",
+        role: "Founder, Carter Design Studio",
+      },
+      {
+        quote:
+          "Our booking requests doubled within the first month of launching the new site.",
+        name: "Priya Nair",
+        role: "Director, Nair Consulting",
+      },
+    ],
+  },
+}
