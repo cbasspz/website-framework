@@ -1,44 +1,31 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Zap, Sparkles, Repeat } from "lucide-react";
+import { Zap, Sparkles, Repeat, LucideIcon } from "lucide-react";
 import Card from "@/components/ui/Card";
+import { siteContent } from "@/lib/content";
 
-const services = [
-  {
-    icon: Zap,
-    title: "Fast",
-    description: "Every site is built for speed from the ground up.",
-  },
-  {
-    icon: Sparkles,
-    title: "Modern",
-    description:
-      "Clean, premium design inspired by the best in the industry.",
-  },
-  {
-    icon: Repeat,
-    title: "Reusable",
-    description: "Built once, deployed for every future client in hours.",
-  },
-];
+const iconMap: Record<string, LucideIcon> = {
+  Zap,
+  Sparkles,
+  Repeat,
+};
 
 export default function Features() {
+  const { features } = siteContent;
+
   return (
     <section className="px-6 py-24 max-w-5xl mx-auto">
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
-          What we offer
+          {features.heading}
         </h2>
-        <p className="mt-4 text-muted-foreground">
-          A framework built for speed, consistency, and long-term
-          scalability.
-        </p>
+        <p className="mt-4 text-muted-foreground">{features.subheading}</p>
       </div>
 
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-        {services.map((service, index) => {
-          const Icon = service.icon;
+        {features.services.map((service, index) => {
+          const Icon = iconMap[service.icon];
           return (
             <motion.div
               key={service.title}
