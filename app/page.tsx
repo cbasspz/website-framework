@@ -1,14 +1,9 @@
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <div className="flex justify-end p-6">
-        <ThemeToggle />
-      </div>
-
       <section className="flex flex-col items-center justify-center text-center px-6 py-32">
         <h1 className="text-5xl md:text-6xl font-semibold tracking-tight">
           We build websites that feel premium.
