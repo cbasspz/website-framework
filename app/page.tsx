@@ -1,3 +1,5 @@
+import Button from "@/components/ui/Button";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
@@ -8,9 +10,9 @@ export default function Home() {
         <p className="mt-6 max-w-xl text-lg text-muted-foreground">
           This is our reusable framework — the foundation every client site will be built from.
         </p>
-        <button className="mt-10 rounded-full bg-accent px-6 py-3 text-white font-medium hover:opacity-90 transition">
-          Get Started
-        </button>
+        <div className="mt-10">
+          <Button variant="primary">Get Started</Button>
+        </div>
       </section>
     </main>
   );
