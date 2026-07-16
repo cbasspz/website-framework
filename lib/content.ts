@@ -68,5 +68,26 @@ export const siteContent = {
         role: "Director, Nair Consulting",
       },
     ],
+  },footer: {
+    tagline:
+      "Premium websites built for growing businesses.",
+    columns: [
+      {
+        heading: "Company",
+        links: [
+          { label: "About", href: "#about" },
+          { label: "Services", href: "#services" },
+          { label: "Contact", href: "#contact" },
+        ],
+      },
+      {
+        heading: "Legal",
+        links: [
+          { label: "Privacy Policy", href: "#" },
+          { label: "Terms of Service", href: "#" },
+        ],
+      },
+    ],
+    copyright: `© ${new Date().getFullYear()} YourAgency. All rights reserved.`,
   },
 }
