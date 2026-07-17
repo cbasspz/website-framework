@@ -95,4 +95,25 @@ export const siteContent = {
     subheading: "Let's build a website that actually grows your business.",
     buttonText: "Get Started",
   },
+  heroSlides: [
+    {
+      image: "https://picsum.photos/1600/900?random=1",
+      quote: "Bespoke Websites, Built With Precision.",
+    },
+    {
+      image: "https://picsum.photos/1600/900?random=2",
+      quote: "Design That Feels Effortless.",
+    },
+    {
+      image: "https://picsum.photos/1600/900?random=3",
+      quote: "Built To Grow With Your Business.",
+    },
+  ],
+  contact: {
+    heading: "Get in touch",
+    subheading: "Tell us about your project and we'll get back to you within 24 hours.",
+    email: "hello@youragency.com",
+    phone: "(555) 123-4567",
+    address: "123 Main St, Miami, FL 33101",
+  },
 }
