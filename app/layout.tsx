@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CookieBanner from "@/components/ui/CookieBanner";
+import { siteContent } from "@/lib/content";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,8 +18,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Website Framework",
-  description: "A reusable premium website framework.",
+  title: siteContent.seo.title,
+  description: siteContent.seo.description,
+  openGraph: {
+    title: siteContent.seo.title,
+    description: siteContent.seo.description,
+    images: [siteContent.seo.ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteContent.seo.title,
+    description: siteContent.seo.description,
+    images: [siteContent.seo.ogImage],
+  },
 };
 
 export default function RootLayout({

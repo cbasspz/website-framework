@@ -206,4 +206,10 @@ export const siteContent = {
       { label: "Happy clients", value: "480+" },
     ],
   },
+  seo: {
+    title: "YourAgency — Premium Websites for Growing Businesses",
+    description:
+      "We build fast, modern, premium websites for growing businesses — from design to launch.",
+    ogImage: "/og-image.jpg",
+  },
 }
