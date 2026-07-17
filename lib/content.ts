@@ -184,4 +184,26 @@ export const siteContent = {
       },
     ],
   },
+  logos: {
+    heading: "Trusted and certified by",
+    items: [
+      { name: "GAF Certified" },
+      { name: "BBB Accredited" },
+      { name: "Owens Corning" },
+      { name: "HomeAdvisor" },
+      { name: "Angi Approved" },
+    ],
+  },
+  about: {
+    heading: "Built on trust, driven by craftsmanship.",
+    subheading:
+      "We're a team dedicated to delivering exceptional results, project after project.",
+    body:
+      "For over a decade, we've helped homeowners and businesses bring their vision to life. From the first consultation to the final walkthrough, our team is committed to quality, communication, and getting the job done right the first time.",
+    stats: [
+      { label: "Years in business", value: "12+" },
+      { label: "Projects completed", value: "500+" },
+      { label: "Happy clients", value: "480+" },
+    ],
+  },
 }
