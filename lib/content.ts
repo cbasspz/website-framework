@@ -116,4 +116,41 @@ export const siteContent = {
     phone: "(555) 123-4567",
     address: "123 Main St, Miami, FL 33101",
   },
+  gallery: {
+    heading: "Our Work",
+    subheading: "A look at some of our recent projects.",
+    categories: ["All", "Residential", "Commercial"],
+    items: [
+      {
+        image: "https://picsum.photos/600/400?random=11",
+        title: "Modern Family Home",
+        category: "Residential",
+      },
+      {
+        image: "https://picsum.photos/600/400?random=12",
+        title: "Downtown Office Complex",
+        category: "Commercial",
+      },
+      {
+        image: "https://picsum.photos/600/400?random=13",
+        title: "Lakeside Renovation",
+        category: "Residential",
+      },
+      {
+        image: "https://picsum.photos/600/400?random=14",
+        title: "Retail Storefront",
+        category: "Commercial",
+      },
+      {
+        image: "https://picsum.photos/600/400?random=15",
+        title: "Suburban New Build",
+        category: "Residential",
+      },
+      {
+        image: "https://picsum.photos/600/400?random=16",
+        title: "Corporate Headquarters",
+        category: "Commercial",
+      },
+    ],
+  },
 }
