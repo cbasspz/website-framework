@@ -153,4 +153,35 @@ export const siteContent = {
       },
     ],
   },
+  faq: {
+    heading: "Frequently asked questions",
+    subheading: "Everything you need to know before getting started.",
+    items: [
+      {
+        question: "How long does a typical project take?",
+        answer:
+          "Most projects are completed within 2-4 weeks from start to finish, depending on scope and complexity.",
+      },
+      {
+        question: "Do you offer free consultations?",
+        answer:
+          "Yes, we offer a free initial consultation to discuss your project and provide an estimate.",
+      },
+      {
+        question: "Are you licensed and insured?",
+        answer:
+          "Yes, we're fully licensed and insured, and can provide documentation upon request.",
+      },
+      {
+        question: "What areas do you serve?",
+        answer:
+          "We proudly serve the greater metro area and surrounding communities within a 50-mile radius.",
+      },
+      {
+        question: "Do you offer financing options?",
+        answer:
+          "Yes, we partner with several financing companies to offer flexible payment plans for larger projects.",
+      },
+    ],
+  },
 }

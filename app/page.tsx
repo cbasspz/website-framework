@@ -2,6 +2,7 @@ import HeroSlider from "@/components/sections/HeroSlider";
 import Features from "@/components/sections/Features";
 import Gallery from "@/components/sections/Gallery";
 import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import CTA from "@/components/sections/CTA";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <Gallery />
       <Testimonials />
+      <FAQ />
       <Contact />
       <CTA />
     </main>
