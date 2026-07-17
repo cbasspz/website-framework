@@ -90,4 +90,9 @@ export const siteContent = {
     ],
     copyright: `© ${new Date().getFullYear()} YourAgency. All rights reserved.`,
   },
+   cta: {
+    heading: "Ready to get started?",
+    subheading: "Let's build a website that actually grows your business.",
+    buttonText: "Get Started",
+  },
 }
